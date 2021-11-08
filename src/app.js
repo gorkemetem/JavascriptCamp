@@ -22,61 +22,61 @@
 
 // console.log(konutKredileri)
 
-let student ={id:1, name:"etem"}
+// let student ={id:1, name:"etem"}
 
-function save(ogrenci, puan = 10) {
-    // console.log(ogrenci.name + " : "+puan)
-}
+// function save(ogrenci, puan = 10) {
+//     // console.log(ogrenci.name + " : "+puan)
+// }
 
-save(student, 100)
-
-
-let students = ["görkem", "etem", "irmak"]
-
-// console.log(students)
-
-let students2 = [student, {id:2, name:"Halit"}, "Ankara", {city:"Istanbul"}]
-
-// console.log(students2)
+// save(student, 100)
 
 
+// let students = ["görkem", "etem", "irmak"]
 
-//rest -gerikalanalar
-let showProducts = function (id,...products) {
-    console.log(id)
-    console.log(products)
-}
+// // console.log(students)
 
-// console.log(typeof showProducts)
-//showProducts(10,["Elma","Armmut","Karpuz"])
+// let students2 = [student, {id:2, name:"Halit"}, "Ankara", {city:"Istanbul"}]
 
-//spread
-let points = [1,2,56,60,3,5,6,8]
-console.log(...points)
-console.log(Math.max(...points))
-console.log(..."ABC")
+// // console.log(students2)
 
 
-//Destructuring
-let populations = [10000,20000,30000,[40000,10000]]
-let [small,medium,high,[veryhigh,maximum]] = populations
-console.log(small)
-console.log(medium)
-console.log(high)
-console.log(veryhigh)
-console.log(maximum)
 
-function someFunction([small1],number) {
-    console.log(small1)
+// //rest -gerikalanalar
+// let showProducts = function (id,...products) {
+//     console.log(id)
+//     console.log(products)
+// }
+
+// // console.log(typeof showProducts)
+// //showProducts(10,["Elma","Armmut","Karpuz"])
+
+// //spread
+// let points = [1,2,56,60,3,5,6,8]
+// console.log(...points)
+// console.log(Math.max(...points))
+// console.log(..."ABC")
+
+
+// //Destructuring
+// let populations = [10000,20000,30000,[40000,10000]]
+// let [small,medium,high,[veryhigh,maximum]] = populations
+// console.log(small)
+// console.log(medium)
+// console.log(high)
+// console.log(veryhigh)
+// console.log(maximum)
+
+// function someFunction([small1],number) {
+//     console.log(small1)
     
-}
+// }
 
-someFunction(populations)
+// someFunction(populations)
 
-let category = {id:1, name:"icecek"}
-console.log(category.id)
-console.log(category.name)
+// let category = {id:1, name:"icecek"}
+// console.log(category.id)
+// console.log(category.name)
 
-let {id,name} = category
-console.log(id)
-console.log(name)
+// let {id,name} = category
+// console.log(id)
+// console.log(name)
